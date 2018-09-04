@@ -1,0 +1,97 @@
+body { 
+  font-family: 'Orbitron', sans-serif;
+  background: black;
+}
+
+.white-bar {
+  position: fixed;
+  top: 0%;
+  height: 100%;
+  width: 400px;
+  left: 890px;
+  background: white;
+}
+
+* { 
+  position: fixed;
+  text-align: center;
+  top: 100%;
+}
+
+#Timer {
+  font-size: 250px;
+  width: 890px;
+  height: 300px;
+  margin-top: -299px;
+  color: white;
+}
+
+#WorkTitle {
+  font-size: 125px;
+  height: 165px;
+  width: 400px;
+  margin-top: -155px;
+  left: 890px;
+  color: black;
+}
+
+#BreakTitle {
+  font-size: 40px;
+  height: 60px;
+  width: 162px;
+  left: 1290px;
+  margin-top: -205px;
+  color: white;
+}
+
+#WorkMinus, #WorkPlus, #WorkTimer {
+  font-size: 80px;
+  height: 107.5px;
+  width: 57.5px;
+  color: black;
+}
+
+#WorkTimer { 
+  left: 947.5px;
+  width: 285px; 
+  margin-top: -226px;
+}
+
+#WorkPlus { 
+  left: 890px;
+  width: 57.5px;
+  margin-top: -231px;
+}
+
+#WorkMinus { 
+  left: 1232.5px;
+  width: 57.5px;
+  margin-top: -231px;
+}
+
+#BreakMinus, #BreakPlus, #BreakTimer {
+  font-size: 40px;
+  height: 60px;
+  margin-top: -119px;
+  color: white;
+}
+
+#BreakTimer { 
+  left: 1290px;
+  width: 162px;
+  margin-top: -59px;
+}
+
+#BreakPlus, #BreakMinus { 
+  width: 81px;
+  margin-top: -165px;
+  font-size: 80px;
+}
+
+#Timer, #WorkPlus, #WorkMinus, #BreakPlus, #BreakMinus {
+  cursor: hand;
+  cursor: pointer;
+}
+
+#BreakPlus { left: 1290px }
+#BreakMinus { left: 1371px }
